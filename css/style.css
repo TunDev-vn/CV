@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+p {
+    font-size: 18px;
+}
+body {
+    display: flex;
+    justify-content: center;
+}
+.wrapper {
+    width: 700px;
+    border: 5px solid rgb(31, 162, 255);
+    padding: 10px 20px;
+}
+header {
+    display: flex;
+    margin-bottom: 50px;
+}
+header #avatar img {
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 50%;
+    border: 5px solid aquamarine;
+    transition: transform 5s ease-in-out;
+    cursor: pointer;
+}
+header #avatar img:hover {
+    transform: rotate(11360deg) scale(1.5, 1.5);
+}
+#name {
+    margin-left: 100px;
+    margin-top: 50px;
+    text-align: center;
+}
+main div {
+    display: flex;
+    flex-direction: row;
+}
+main div h2 {
+    width: 200px;
+}
+.wrapper {
+    background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+    background-size: 1800% 1800%;
+    
+    -webkit-animation: rainbow 1s ease infinite;
+    -z-animation: rainbow 1s ease infinite;
+    -o-animation: rainbow 1s ease infinite;
+        animation: rainbow 1s ease infinite;
+}
+  
+@-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@keyframes rainbow { 
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
