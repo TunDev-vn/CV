@@ -2,6 +2,7 @@
 * {
     font-family: 'Roboto', sans-serif;
     margin: 0;
+    user-select: none;
 }
 p {
     font-size: 18px;
@@ -29,7 +30,7 @@ header #avatar img {
     cursor: pointer;
 }
 header #avatar img:hover {
-    transform: rotate(11360deg) scale(1.5, 1.5);
+    transform: rotate(10800deg) scale(1.5, 1.5);
 }
 #name {
     margin-left: 100px;
